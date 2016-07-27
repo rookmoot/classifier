@@ -1,0 +1,17 @@
+{
+    "name": "rookmoot/classifier",
+    "type": "library",
+    "description": "A PHP Bayesian classifier algorithm library.",
+    "keywords": ["Bayes", "Bayesian", "classifier", "algorithm"],
+    "homepage": "http://www.diatelys.fr",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Stéphane Bauland",
+            "email": "stephane.bauland@diatelys.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Classify\\": "src/"}
+    }
+}
